@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './home';
+import Message from './message';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Home />, div);
+  ReactDOM.render(<Message />, div);
   ReactDOM.unmountComponentAtNode(div);
-  console.log("ok, the home screen not cash");
+  console.log("ok, the Message component not cash");
 });

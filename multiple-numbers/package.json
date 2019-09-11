@@ -32,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "jest": "24.8.0"
   }
 }
